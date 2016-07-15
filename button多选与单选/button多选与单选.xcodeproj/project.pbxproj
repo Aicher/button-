@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC65EB21D379C890054E0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC65EB11D379C880054E0A8 /* main.m */; };
+		FCC65EB51D379C890054E0A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC65EB41D379C890054E0A8 /* AppDelegate.m */; };
+		FCC65EB81D379C890054E0A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC65EB71D379C890054E0A8 /* ViewController.m */; };
+		FCC65EBB1D379C890054E0A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC65EB91D379C890054E0A8 /* Main.storyboard */; };
+		FCC65EBD1D379C890054E0A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC65EBC1D379C890054E0A8 /* Assets.xcassets */; };
+		FCC65EC01D379C890054E0A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC65EBE1D379C890054E0A8 /* LaunchScreen.storyboard */; };
+		FCC65ECB1D379C890054E0A8 /* button_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC65ECA1D379C890054E0A8 /* button_____Tests.m */; };
+		FCC65ED61D379C890054E0A8 /* button_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC65ED51D379C890054E0A8 /* button_____UITests.m */; };
+		FCC65EE51D3870D00054E0A8 /* loginButtonbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC65EE31D3870D00054E0A8 /* loginButtonbg@2x.png */; };
+		FCC65EE61D3870D00054E0A8 /* registerButtonbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC65EE41D3870D00054E0A8 /* registerButtonbg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC65EC71D379C890054E0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC65EA51D379C870054E0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC65EAC1D379C870054E0A8;
+			remoteInfo = "button多选与单选";
+		};
+		FCC65ED21D379C890054E0A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC65EA51D379C870054E0A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC65EAC1D379C870054E0A8;
+			remoteInfo = "button多选与单选";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC65EAD1D379C870054E0A8 /* button多选与单选.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "button多选与单选.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC65EB11D379C880054E0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC65EB31D379C890054E0A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC65EB41D379C890054E0A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC65EB61D379C890054E0A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCC65EB71D379C890054E0A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC65EBA1D379C890054E0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC65EBC1D379C890054E0A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC65EBF1D379C890054E0A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC65EC11D379C890054E0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC65EC61D379C890054E0A8 /* button多选与单选Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button多选与单选Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC65ECA1D379C890054E0A8 /* button_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "button_____Tests.m"; sourceTree = "<group>"; };
+		FCC65ECC1D379C890054E0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC65ED11D379C890054E0A8 /* button多选与单选UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "button多选与单选UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC65ED51D379C890054E0A8 /* button_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "button_____UITests.m"; sourceTree = "<group>"; };
+		FCC65ED71D379C8A0054E0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC65EE31D3870D00054E0A8 /* loginButtonbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginButtonbg@2x.png"; sourceTree = "<group>"; };
+		FCC65EE41D3870D00054E0A8 /* registerButtonbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "registerButtonbg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC65EAA1D379C870054E0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65EC31D379C890054E0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65ECE1D379C890054E0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC65EA41D379C870054E0A8 = {
+			isa = PBXGroup;
+			children = (
+				FCC65EAF1D379C880054E0A8 /* button多选与单选 */,
+				FCC65EC91D379C890054E0A8 /* button多选与单选Tests */,
+				FCC65ED41D379C890054E0A8 /* button多选与单选UITests */,
+				FCC65EAE1D379C870054E0A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC65EAE1D379C870054E0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC65EAD1D379C870054E0A8 /* button多选与单选.app */,
+				FCC65EC61D379C890054E0A8 /* button多选与单选Tests.xctest */,
+				FCC65ED11D379C890054E0A8 /* button多选与单选UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC65EAF1D379C880054E0A8 /* button多选与单选 */ = {
+			isa = PBXGroup;
+			children = (
+				FCC65EB31D379C890054E0A8 /* AppDelegate.h */,
+				FCC65EB41D379C890054E0A8 /* AppDelegate.m */,
+				FCC65EB61D379C890054E0A8 /* ViewController.h */,
+				FCC65EB71D379C890054E0A8 /* ViewController.m */,
+				FCC65EE31D3870D00054E0A8 /* loginButtonbg@2x.png */,
+				FCC65EE41D3870D00054E0A8 /* registerButtonbg@2x.png */,
+				FCC65EB91D379C890054E0A8 /* Main.storyboard */,
+				FCC65EBC1D379C890054E0A8 /* Assets.xcassets */,
+				FCC65EBE1D379C890054E0A8 /* LaunchScreen.storyboard */,
+				FCC65EC11D379C890054E0A8 /* Info.plist */,
+				FCC65EB01D379C880054E0A8 /* Supporting Files */,
+			);
+			path = "button多选与单选";
+			sourceTree = "<group>";
+		};
+		FCC65EB01D379C880054E0A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC65EB11D379C880054E0A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC65EC91D379C890054E0A8 /* button多选与单选Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC65ECA1D379C890054E0A8 /* button_____Tests.m */,
+				FCC65ECC1D379C890054E0A8 /* Info.plist */,
+			);
+			path = "button多选与单选Tests";
+			sourceTree = "<group>";
+		};
+		FCC65ED41D379C890054E0A8 /* button多选与单选UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC65ED51D379C890054E0A8 /* button_____UITests.m */,
+				FCC65ED71D379C8A0054E0A8 /* Info.plist */,
+			);
+			path = "button多选与单选UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC65EAC1D379C870054E0A8 /* button多选与单选 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC65EDA1D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选" */;
+			buildPhases = (
+				FCC65EA91D379C870054E0A8 /* Sources */,
+				FCC65EAA1D379C870054E0A8 /* Frameworks */,
+				FCC65EAB1D379C870054E0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "button多选与单选";
+			productName = "button多选与单选";
+			productReference = FCC65EAD1D379C870054E0A8 /* button多选与单选.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC65EC51D379C890054E0A8 /* button多选与单选Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC65EDD1D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选Tests" */;
+			buildPhases = (
+				FCC65EC21D379C890054E0A8 /* Sources */,
+				FCC65EC31D379C890054E0A8 /* Frameworks */,
+				FCC65EC41D379C890054E0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC65EC81D379C890054E0A8 /* PBXTargetDependency */,
+			);
+			name = "button多选与单选Tests";
+			productName = "button多选与单选Tests";
+			productReference = FCC65EC61D379C890054E0A8 /* button多选与单选Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC65ED01D379C890054E0A8 /* button多选与单选UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC65EE01D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选UITests" */;
+			buildPhases = (
+				FCC65ECD1D379C890054E0A8 /* Sources */,
+				FCC65ECE1D379C890054E0A8 /* Frameworks */,
+				FCC65ECF1D379C890054E0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC65ED31D379C890054E0A8 /* PBXTargetDependency */,
+			);
+			name = "button多选与单选UITests";
+			productName = "button多选与单选UITests";
+			productReference = FCC65ED11D379C890054E0A8 /* button多选与单选UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC65EA51D379C870054E0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhuoran;
+				TargetAttributes = {
+					FCC65EAC1D379C870054E0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FCC65EC51D379C890054E0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FCC65EAC1D379C870054E0A8;
+					};
+					FCC65ED01D379C890054E0A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FCC65EAC1D379C870054E0A8;
+					};
+				};
+			};
+			buildConfigurationList = FCC65EA81D379C870054E0A8 /* Build configuration list for PBXProject "button多选与单选" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC65EA41D379C870054E0A8;
+			productRefGroup = FCC65EAE1D379C870054E0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC65EAC1D379C870054E0A8 /* button多选与单选 */,
+				FCC65EC51D379C890054E0A8 /* button多选与单选Tests */,
+				FCC65ED01D379C890054E0A8 /* button多选与单选UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC65EAB1D379C870054E0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC65EC01D379C890054E0A8 /* LaunchScreen.storyboard in Resources */,
+				FCC65EBD1D379C890054E0A8 /* Assets.xcassets in Resources */,
+				FCC65EBB1D379C890054E0A8 /* Main.storyboard in Resources */,
+				FCC65EE51D3870D00054E0A8 /* loginButtonbg@2x.png in Resources */,
+				FCC65EE61D3870D00054E0A8 /* registerButtonbg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65EC41D379C890054E0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65ECF1D379C890054E0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC65EA91D379C870054E0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC65EB81D379C890054E0A8 /* ViewController.m in Sources */,
+				FCC65EB51D379C890054E0A8 /* AppDelegate.m in Sources */,
+				FCC65EB21D379C890054E0A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65EC21D379C890054E0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC65ECB1D379C890054E0A8 /* button_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC65ECD1D379C890054E0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC65ED61D379C890054E0A8 /* button_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC65EC81D379C890054E0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC65EAC1D379C870054E0A8 /* button多选与单选 */;
+			targetProxy = FCC65EC71D379C890054E0A8 /* PBXContainerItemProxy */;
+		};
+		FCC65ED31D379C890054E0A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC65EAC1D379C870054E0A8 /* button多选与单选 */;
+			targetProxy = FCC65ED21D379C890054E0A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC65EB91D379C890054E0A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC65EBA1D379C890054E0A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC65EBE1D379C890054E0A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC65EBF1D379C890054E0A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC65ED81D379C8A0054E0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC65ED91D379C8A0054E0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC65EDB1D379C8A0054E0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "button多选与单选/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCC65EDC1D379C8A0054E0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "button多选与单选/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCC65EDE1D379C8A0054E0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "button多选与单选Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button多选与单选.app/button多选与单选";
+			};
+			name = Debug;
+		};
+		FCC65EDF1D379C8A0054E0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "button多选与单选Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/button多选与单选.app/button多选与单选";
+			};
+			name = Release;
+		};
+		FCC65EE11D379C8A0054E0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "button多选与单选UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "button多选与单选";
+			};
+			name = Debug;
+		};
+		FCC65EE21D379C8A0054E0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "button多选与单选UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhuoran.button-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "button多选与单选";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC65EA81D379C870054E0A8 /* Build configuration list for PBXProject "button多选与单选" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC65ED81D379C8A0054E0A8 /* Debug */,
+				FCC65ED91D379C8A0054E0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC65EDA1D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC65EDB1D379C8A0054E0A8 /* Debug */,
+				FCC65EDC1D379C8A0054E0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC65EDD1D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC65EDE1D379C8A0054E0A8 /* Debug */,
+				FCC65EDF1D379C8A0054E0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC65EE01D379C8A0054E0A8 /* Build configuration list for PBXNativeTarget "button多选与单选UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC65EE11D379C8A0054E0A8 /* Debug */,
+				FCC65EE21D379C8A0054E0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC65EA51D379C870054E0A8 /* Project object */;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQr-ON-NaL">
+                                <rect key="frame" x="50" y="90" width="500" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zQ7-He-Dmx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <connections>
+                                    <action selector="selectedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLB-Gx-B5q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImS-P4-POK">
+                                <rect key="frame" x="50" y="150" width="500" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="588-Jw-rBN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <connections>
+                                    <action selector="selectedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgd-K1-gUW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayj-je-Iah">
+                                <rect key="frame" x="50" y="210" width="500" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZNI-PL-UCC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <connections>
+                                    <action selector="selectedBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOQ-vG-gXa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0g-VA-rNX">
+                                <rect key="frame" x="50" y="310" width="500" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="DPH-WL-3PN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="确定">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HFK-CQ-jUz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="m0g-VA-rNX" secondAttribute="trailing" constant="50" id="1hL-MH-IBB"/>
+                            <constraint firstAttribute="trailing" secondItem="ayj-je-Iah" secondAttribute="trailing" constant="50" id="6qb-Ws-Nau"/>
+                            <constraint firstAttribute="trailing" secondItem="ImS-P4-POK" secondAttribute="trailing" constant="50" id="GCi-sO-Yck"/>
+                            <constraint firstItem="m0g-VA-rNX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="INR-SL-Y5K"/>
+                            <constraint firstItem="ImS-P4-POK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="Kl6-yB-pud"/>
+                            <constraint firstItem="MQr-ON-NaL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="MrV-7g-Zgb"/>
+                            <constraint firstItem="m0g-VA-rNX" firstAttribute="top" secondItem="ayj-je-Iah" secondAttribute="bottom" constant="60" id="Pc3-vB-sdZ"/>
+                            <constraint firstAttribute="trailing" secondItem="MQr-ON-NaL" secondAttribute="trailing" constant="50" id="PlC-Np-JZx"/>
+                            <constraint firstItem="ayj-je-Iah" firstAttribute="top" secondItem="ImS-P4-POK" secondAttribute="bottom" constant="20" id="YtM-D5-Xly"/>
+                            <constraint firstItem="MQr-ON-NaL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="dhT-Fv-0EA"/>
+                            <constraint firstItem="ayj-je-Iah" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="j9i-6E-bFh"/>
+                            <constraint firstItem="ImS-P4-POK" firstAttribute="top" secondItem="MQr-ON-NaL" secondAttribute="bottom" constant="20" id="ogA-hG-Mkn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="oneBtn" destination="MQr-ON-NaL" id="Ytd-05-rsO"/>
+                        <outlet property="threeBtn" destination="ayj-je-Iah" id="V7O-B6-0jo"/>
+                        <outlet property="twoBtn" destination="ImS-P4-POK" id="Hsp-1a-r9y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312" y="347"/>
+        </scene>
+    </scenes>
+</document>
